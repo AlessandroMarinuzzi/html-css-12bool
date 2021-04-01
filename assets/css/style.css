@@ -20,7 +20,7 @@ p{
 #site_footer [class*="col-"]{
     background-color: #f07f80;
     border: 1px solid #ffc0cb;
-    height: 1px;
+    height: 200px;
     position: relative;  
 }
 
