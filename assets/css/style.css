@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 p{
     line-height: 200px;
     vertical-align: middle;
@@ -32,6 +33,10 @@ p{
     transform: translate(-50%, -50%);
 }
 
+#site_footer [class*="col-"] > .row > [class*="col-"]{
+    height: 180px;
+}
+
 #site_footer>.row>.col-6>.row{
-    padding: 5px;
+    padding: 10px;
 }
