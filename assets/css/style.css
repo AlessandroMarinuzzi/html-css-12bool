@@ -2,6 +2,7 @@
     background-color: #ffc0cb;
     border: 1px solid black;
     text-align: center;
+    padding: 0;
 }
 
 p{
@@ -9,21 +10,18 @@ p{
     vertical-align: middle;
 }
 
-#site_footer .left,
-#site_footer .right{
+#site_footer>.row>.col-6{
     width: 50%;
     background-color: #ffc0cb;
     border: 1px solid black;
-    padding: 5px;
     float: left;
 }
 
 #site_footer [class*="col-"]{
     background-color: #f07f80;
     border: 1px solid #ffc0cb;
-    height: 200px;
-    position: relative;
-    
+    height: 1px;
+    position: relative;  
 }
 
 #site_footer p{
@@ -32,4 +30,8 @@ p{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+#site_footer>.row>.col-6>.row{
+    padding: 5px;
 }
