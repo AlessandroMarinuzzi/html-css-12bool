@@ -1,0 +1,30 @@
+[class*="col-"]{
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    text-align: center;
+}
+
+p{
+    line-height: 200px;
+    vertical-align: middle;
+}
+
+#site_footer .left,
+#site_footer .right{
+    width: 50%;
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    padding: 5px;
+    float: left;
+}
+
+#site_footer [class*="col-"]{
+    background-color: #f07f80;
+    border: 1px solid #ffc0cb;
+    
+}
+
+#site_footer p{
+    line-height: normal;
+    
+}
