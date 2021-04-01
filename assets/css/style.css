@@ -21,10 +21,15 @@ p{
 #site_footer [class*="col-"]{
     background-color: #f07f80;
     border: 1px solid #ffc0cb;
+    height: 200px;
+    position: relative;
     
 }
 
 #site_footer p{
     line-height: normal;
-    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
